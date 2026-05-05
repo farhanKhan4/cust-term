@@ -27,7 +27,7 @@
 │ PS ⚡  ×  +                    [frosted glass]  │
 │▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░│
 │                                                 │
-│       ·   ·          nasru@Khans-Laptop         │
+│       ·   ·          your@pc-Laptop         │
 │     ·   ◇   ·        ──────────────────         │
 │   ·   ◇   ◇   ·      OS    Windows 11 x86_64   │
 │ ·   ◇   ◆   ◇   ·    CPU   i5-12450H @ 4.4GHz  │
