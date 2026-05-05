@@ -1,0 +1,95 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        { "command": { "action": "copy", "singleLine": false }, "id": "User.copy.644BA8F2" },
+        { "command": "paste", "id": "User.paste" },
+        { "command": "find", "id": "User.find" },
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "id": "User.splitPane.A6751878" },
+        { "command": { "action": "newTab" }, "id": "User.newTab" }
+    ],
+    "alwaysOnTop": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [
+        { "id": "User.copy.644BA8F2", "keys": "ctrl+c" },
+        { "id": "User.find", "keys": "ctrl+shift+f" },
+        { "id": "User.paste", "keys": "ctrl+v" },
+        { "id": "User.splitPane.A6751878", "keys": "alt+shift+d" },
+        { "id": "User.newTab", "keys": "ctrl+t" }
+    ],
+    "newTabMenu": [{ "type": "remainingProfiles" }],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Ghost Wire",
+            "cursorShape": "vintage",
+            "experimental.retroTerminalEffect": false,
+            "font": {
+                "builtinGlyphs": true,
+                "cellHeight": "1.2",
+                "colorGlyphs": true,
+                "face": "JetBrainsMono Nerd Font Mono",
+                "size": 11,
+                "weight": "bold"
+            },
+            "intenseTextStyle": "all",
+            "opacity": 85,
+            "padding": "10",
+            "useAcrylic": true,
+            "scrollbarState": "hidden",
+            "startingDirectory": "%USERPROFILE%"
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "tabTitle": "PS ◈"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "tabTitle": "CMD ◇"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure",
+                "tabTitle": "Azure ○"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Ghost Wire",
+            "background": "#0A0A0A",
+            "foreground": "#E0E0E0",
+            "black": "#1A1A1A",
+            "red": "#BDBDBD",
+            "green": "#9E9E9E",
+            "yellow": "#F5F5F5",
+            "blue": "#757575",
+            "purple": "#EEEEEE",
+            "cyan": "#BDBDBD",
+            "white": "#F5F5F5",
+            "brightBlack": "#424242",
+            "brightRed": "#E0E0E0",
+            "brightGreen": "#BDBDBD",
+            "brightYellow": "#FFFFFF",
+            "brightBlue": "#9E9E9E",
+            "brightPurple": "#F5F5F5",
+            "brightCyan": "#E0E0E0",
+            "brightWhite": "#FFFFFF",
+            "cursorColor": "#FFFFFF",
+            "selectionBackground": "#424242"
+        }
+    ],
+    "tabWidthMode": "titleLength",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
