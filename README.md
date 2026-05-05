@@ -1,4 +1,4 @@
-# cust-term 🖥️
+# cust-term 🖥️(Customize your Terminal)
 
 > A clean Windows Terminal customization guide — themes, fonts, and fastfetch setup from scratch.
 
